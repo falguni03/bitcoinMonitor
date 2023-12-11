@@ -16,12 +16,12 @@ variable "key_name" {
 variable "instance_type" {
   description = "Instance type for EMR and EC2"
   type        = string
-  default     = "m4.xlarge"
+  default     = "t2.micro"
 }
 
 ## Alert email receiver
 variable "alert_email_id" {
   description = "Email id to send alerts to "
   type        = string
-  default     = "joseph.machado@domain.com"
+  default     = "falguni.frd03@gmail.com"
 }
